@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.whd.androidkejar.CobaActivity">
+
+    <EditText
+        android:id="@+id/editInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write Text Here"/>
+
+    <Button
+        android:id="@+id/btnInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Click Me"/>
+
+    <TextView
+        android:id="@+id/txtShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Text"
+        />
+
+</LinearLayout>

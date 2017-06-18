@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.example.whd.androidkejar.BasketActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="130dp"
+        android:background="@mipmap/ic_launcher_round"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teama"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/numberTeamA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimary"
+                android:text="@string/duapoint"
+                android:onClick="teama2"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimary"
+                android:text="@string/tigapoint"
+                android:onClick="teama3"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimary"
+                android:text="@string/freethrow"
+                android:onClick="teama1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teamb"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/numberTeamB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:layout_gravity="center"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimary"
+                android:text="@string/duapoint"
+                android:onClick="teamb2"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimary"
+                android:text="@string/tigapoint"
+                android:onClick="teamb3"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimary"
+                android:text="@string/freethrow"
+                android:onClick="teamb1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="140dp"
+            android:text="@string/reset"
+            android:onClick="reset"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="140dp"
+            android:text="@string/end"
+            android:onClick="end"/>
+
+    </LinearLayout>
+
+</LinearLayout>

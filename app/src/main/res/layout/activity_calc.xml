@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.whd.androidkejar.CalcActivity">
+
+    <EditText
+        android:id="@+id/resultid"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btn7klik"
+        android:text="7"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/resultid"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btn8klik"
+        android:text="8"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/resultid"
+        android:layout_toRightOf="@+id/b7"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/b9"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btn9klik"
+        android:text="9"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/resultid"
+        android:layout_toRightOf="@+id/b8"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btn4klik"
+        android:text="4"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/b7"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btn5klik"
+        android:text="5"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/b8"
+        android:layout_toRightOf="@+id/b4"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btn6klik"
+        android:text="6"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/b9"
+        android:layout_toRightOf="@+id/b5"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btn1klik"
+        android:text="1"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/b4"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btn2klik"
+        android:text="2"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/b5"
+        android:layout_toRightOf="@+id/b1"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btn3klik"
+        android:text="3"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/b6"
+        android:layout_toRightOf="@+id/b2"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/b0"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btn0klik"
+        android:text="0"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/b1"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/bcl"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btnclearklik"
+        android:text="Clear"
+        android:layout_below="@+id/resultid"
+        android:layout_toRightOf="@+id/b9"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/bm"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btnminusklik"
+        android:text="-"
+        android:layout_below="@+id/bp"
+        android:layout_toRightOf="@+id/b3"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/bp"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btnplusklik"
+        android:text="+"
+        android:layout_below="@+id/bcl"
+        android:layout_toRightOf="@+id/b6"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/bk"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btnkaliklik"
+        android:text="*"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/b2"
+        android:layout_toRightOf="@+id/b0"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/bba"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btnbagiklik"
+        android:text="/"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/b2"
+        android:layout_toRightOf="@+id/bk"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/hasil"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btncalcklik"
+        android:text="="
+        android:layout_below="@+id/b3"
+        android:layout_toRightOf="@+id/bba"
+        android:layout_marginTop="16dp" />
+
+
+</RelativeLayout>

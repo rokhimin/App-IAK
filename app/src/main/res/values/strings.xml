@@ -1,0 +1,22 @@
+<resources>
+    <!--App name-->
+    <string name="app_name">AndroidKejar</string>
+    <string name="ganteng">Rokhimin Wahid</string>
+
+    <!--Word for App-->
+    <string name="one">Hello World!!</string>
+    <string name="test">I am Handsome, Bro</string>
+
+    <string name="basketbal">BasketBall Point app</string>
+    <string name="io">Input Output Text app</string>
+    <string name="calc">Calculator Simple App</string>
+
+    <!--Basketball Point-->
+    <string name="teama">Team A</string>
+    <string name="teamb">Team B</string>
+    <string name="duapoint">+2 Points</string>
+    <string name="tigapoint">+3 Points</string>
+    <string name="freethrow">Free Throw</string>
+    <string name="reset">Reset</string>
+    <string name="end">End</string>
+</resources>
